@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c253ab1cfe9225905cb441fc41a35f7e54645f058b9720147eef1a8b47be6f8
-size 561
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_market_badge`(
+	in market varchar(45),
+    in fiscal_year year,
+    out market_badge varchar(45))
+BEGIN
+    -- Stored Procedure to Determine Market Badge Based on Sales Quantity
+	declare qty int default 0;
+    
+	SELECT sum(s.sold_quantity) as qty FROM fact_sales_monthly s join dim_customer c on s.customer_code=c.customer_code
+	where get_fiscal_year(s.date)=fiscal_year and c.market=market
+    group by market;
+    if qty>5000000 then set market_badge="GOLD";
+    else set market_badge="SILVER";
+    end if;
+END

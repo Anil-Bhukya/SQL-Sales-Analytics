@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd7e41f45bb20571bdc8b544f885e3f9e726b15a0f5415cf20468b96d3acb30f
-size 436
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_top_n_markets_sales`(
+ in_fiscal_year int,
+ top_n_markets int)
+BEGIN
+	-- Created a stored procedure for retrieving the top n markets by net sales. here markets like india,UK,US etc..
+	SELECT market,round(sum(net_Sales)/1000000,2) as total_net_sales FROM gdb0041.net_sales_details
+	where fiscal_year=in_fiscal_year
+	group by market
+	order by total_net_sales desc
+	limit top_n_markets;
+END
