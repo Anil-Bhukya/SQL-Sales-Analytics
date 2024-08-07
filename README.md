@@ -66,12 +66,12 @@ This project focuses on performing gross,net sales and supply chain analytics us
      [Excel-report](https://github.com/Anil-Bhukya/SQL-Sales-Analytics/blob/main/Reports_and_Results_of_Tasks/Croma_Task-1/croma_2021_all_Transactions.xlsx)  
       **gross Sales report**  
      ![croma_2021_transaction_sql_result_of_task_given](https://github.com/user-attachments/assets/0fc02d79-b69e-4713-a7f6-683280bc3277)  
-      **report of customers sales by region APAC**-- For more [regions](https://github.com/Anil-Bhukya/SQL-Sales-Analytics/tree/main/Reports_and_Results_of_Tasks/Stored_Procedures)
-     ![APAC_region_share_by_customers](https://github.com/user-attachments/assets/09c1456c-f8f2-4db1-a31a-5aee55dffc3b)
-     **stored procedure for retrieving market sales by region**-- For more [click here](https://github.com/Anil-Bhukya/SQL-Sales-Analytics/tree/main/Reports_and_Results_of_Tasks/Stored_Procedures)
-     ![top_n_market_by_region_gross_sales_storage_procedure](https://github.com/user-attachments/assets/4a9b61ed-44c8-4f73-9c9f-5db3b405c984)
+      **report of customers sales by region APAC**-- For more [regions](https://github.com/Anil-Bhukya/SQL-Sales-Analytics/tree/main/Reports_and_Results_of_Tasks/Stored_Procedures)  
+     ![APAC_region_share_by_customers](https://github.com/user-attachments/assets/09c1456c-f8f2-4db1-a31a-5aee55dffc3b)  
+     **stored procedure for retrieving market sales by region**-- For more [click here](https://github.com/Anil-Bhukya/SQL-Sales-Analytics/tree/main/Reports_and_Results_of_Tasks/Stored_Procedures)  
+     ![top_n_market_by_region_gross_sales_storage_procedure](https://github.com/user-attachments/assets/4a9b61ed-44c8-4f73-9c9f-5db3b405c984)  
      **top 5 products by net sales** --[more](https://github.com/Anil-Bhukya/SQL-Sales-Analytics/tree/main/Reports_and_Results_of_Tasks/Task-3_stored_procedures)  
       ![top_5_products_by_net_sales](https://github.com/user-attachments/assets/508297a1-2b39-4f15-8828-078cb72afc45)  
-     **Supply Chain Reports: Analysis of supply chain performance and metrics**
-     ![forecast_accuracy_sql_report](https://github.com/user-attachments/assets/113f1179-c7a8-4a31-85f9-678d51ce28c1)
-     For more details [click here](https://github.com/Anil-Bhukya/SQL-Sales-Analytics/tree/main/Reports_and_Results_of_Tasks/Task-4_stored_procedures)
+     **Supply Chain Reports: Analysis of supply chain performance and metrics**  
+     ![forecast_accuracy_sql_report](https://github.com/user-attachments/assets/113f1179-c7a8-4a31-85f9-678d51ce28c1)  
+     For more forecast details [click here](https://github.com/Anil-Bhukya/SQL-Sales-Analytics/tree/main/Reports_and_Results_of_Tasks/Task-4_stored_procedures)
